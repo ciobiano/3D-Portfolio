@@ -5,7 +5,7 @@ import { technologies } from "../constants/constant"
 
 const Tech = () => {
   return (
-    <div  className="flex flx-row flex-wrap justify-center gap-10">
+    <div  className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technologies) => (
 
 
@@ -20,4 +20,4 @@ const Tech = () => {
   )
 }
 
-export default Tech
+export default  sectionWrapper(Tech,"")
